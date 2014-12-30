@@ -1,0 +1,7 @@
+{
+"require": {
+    "zircote/swagger-php": "*",
+    "elasticsearch/elasticsearch": "~1.0"
+
+}
+}

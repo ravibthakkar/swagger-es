@@ -1,0 +1,5 @@
+{ 
+  "scheme": "http",
+  "host": "demo.fedapi.io:9200"
+  
+}
