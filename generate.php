@@ -44,7 +44,8 @@ $doc->schemes[] = $scheme;
 
 $doc->paths = new stdClass();
 
-include('./paths/cluster.php'); 
+include('./paths/cluster_health.php'); 
+include('./paths/cluster_state.php'); 
 
 foreach ($r as $resource=>$details) {
   $doc->paths->$resource = json_decode(json_encode($details), FALSE);

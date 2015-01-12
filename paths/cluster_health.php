@@ -34,7 +34,7 @@ $p['timeout']['type']                                                    = "stri
 
 $r['/_cluster/health']['get']['summary']                                 = "cluster health for all indices";
 $r['/_cluster/health']['get']['tags'][]                                  = "cluster";
-$r['/_cluster/health']['get']['description']                             = "http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/cluster-health.html";
+$r['/_cluster/health']['get']['description']                             = "http://www.elasticsearch.org/guide/en/elasticsearch/reference/1.4/cluster-health.html";
 $r['/_cluster/health']['get']['operationId']                             = "getClusterHealth";
 $r['/_cluster/health']['get']['produces'][]                              = "application/json";
 $r['/_cluster/health']['get']['parameters'][]                            = $p['level'];
@@ -45,7 +45,7 @@ $r['/_cluster/health']['get']['responses']['200']['description']         = "ok";
 
 $r['/_cluster/health/{index}']['get']['summary']                         = "cluster health for a specific index";
 $r['/_cluster/health/{index}']['get']['tags'][]                          = "cluster";
-$r['/_cluster/health/{index}']['get']['description']                     = "http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/cluster-health.html";
+$r['/_cluster/health/{index}']['get']['description']                     = "http://www.elasticsearch.org/guide/en/elasticsearch/reference/1.4/cluster-health.html";
 $r['/_cluster/health/{index}']['get']['operationId']                     = "getClusterHealth";
 $r['/_cluster/health/{index}']['get']['produces'][]                      = "application/json";
 $r['/_cluster/health/{index}']['get']['parameters'][]                    = $p['index'];
