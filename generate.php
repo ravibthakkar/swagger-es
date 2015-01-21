@@ -46,6 +46,8 @@ $doc->paths = new stdClass();
 
 include('./paths/cluster_health.php'); 
 include('./paths/cluster_state.php'); 
+include('./paths/cluster_stats.php'); 
+include('./paths/cluster_pending_tasks.php'); 
 
 foreach ($r as $resource=>$details) {
   $doc->paths->$resource = json_decode(json_encode($details), FALSE);
